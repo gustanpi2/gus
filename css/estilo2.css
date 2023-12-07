@@ -1,0 +1,50 @@
+body {
+    background: white;
+}
+
+section {
+    background: silver;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+#header-img {
+    float: left;
+    top: 8%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    overflow: hidden;
+
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: auto;
+}
+
+@media (max-width: 600px){
+
+    section{
+        background: #F9F7F3;
+        flex-direction: column;
+    }
+    header{
+        margin: 10px 0px;
+    }
+}
